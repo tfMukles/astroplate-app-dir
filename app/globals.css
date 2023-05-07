@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-title {
+    @apply capitalize font-title font-bold text-heading mb-6 lg:mb-3 text-left text-3xl leading-10 sm:text-[34px] sm:leading-[45px] md:text-[34px] md:leading-[42px] lg:text-[42px] lg:leading-[60px] xl:text-[48px];
+  }
+
+  .section-description {
+    @apply font-normal text-lg leading-[30px] text-gray capitalize;
+  }
+
+  .container {
+    @apply lg:max-w-[1320px] max-w-full;
+  }
+
+  .section-padding {
+    @apply py-14 lg:py-28;
+  }
+
+  .btn-secondary {
+    @apply hover:bg-black hover:text-white text-sm transition-all duration-300 border border-heading rounded capitalize px-[15px] py-[6px] font-medium;
+  }
+
+  .btn-primary {
+    @apply border border-heading rounded-md capitalize font-medium bg-black text-white;
+  }
+
+  .gradient-color {
+    background: linear-gradient(
+      180deg,
+      #f9f9f9 -0.53%,
+      rgba(249, 249, 249, 0) 83.28%
+    );
+  }
+}
+
+.swiper-pagination-bullet {
+  background: #e3e3e3;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #040404 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.swiper-pagination {
+  margin-top: -15px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+{
+  "navItems": [
+    {
+      "label": "Features",
+      "url": "/"
+    },
+    {
+      "label": "About Us",
+      "url": "/"
+    },
+    {
+      "label": "Pricing",
+      "url": "/"
+    },
+    {
+      "label": "Resources",
+      "url": "/",
+      "subItems": [
+        {
+          "label": "Item 1",
+          "url": "/"
+        },
+        {
+          "label": "Item 2",
+          "url": "/"
+        },
+        {
+          "label": "Item 3",
+          "url": "/"
+        }
+      ]
+    }
+  ],
+
+  "footerItems": [
+    {
+      "label": "Privicy Policy",
+      "url": "/"
+    },
+    {
+      "label": "Email Us",
+      "url": "/"
+    },
+    {
+      "label": "Terms & Condition",
+      "url": "/"
+    }
+  ],
+  "copyWriteText": "Copyright By Zeon Studio"
+}
