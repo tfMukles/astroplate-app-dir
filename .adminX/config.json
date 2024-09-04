@@ -1,0 +1,11 @@
+{
+  "media": {
+    "root": "components",
+    "public": "components"
+  },
+  "content": {
+    "root": "components"
+  },
+  "themeConfig": [],
+  "arrangement": {}
+}
